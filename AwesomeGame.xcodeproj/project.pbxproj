@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D900A9E19521D83001B2407 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D900A9D19521D83001B2407 /* Foundation.framework */; };
+		4D900AA019521D83001B2407 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D900A9F19521D83001B2407 /* CoreGraphics.framework */; };
+		4D900AA219521D83001B2407 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D900AA119521D83001B2407 /* UIKit.framework */; };
+		4D900AA819521D83001B2407 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D900AA619521D83001B2407 /* InfoPlist.strings */; };
+		4D900AAA19521D83001B2407 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D900AA919521D83001B2407 /* main.m */; };
+		4D900AAE19521D83001B2407 /* DBJAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D900AAD19521D83001B2407 /* DBJAppDelegate.m */; };
+		4D900AB119521D83001B2407 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D900AAF19521D83001B2407 /* Main.storyboard */; };
+		4D900AB419521D83001B2407 /* DBJViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D900AB319521D83001B2407 /* DBJViewController.m */; };
+		4D900AB619521D83001B2407 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D900AB519521D83001B2407 /* Images.xcassets */; };
+		4D900ABD19521D83001B2407 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D900ABC19521D83001B2407 /* XCTest.framework */; };
+		4D900ABE19521D83001B2407 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D900A9D19521D83001B2407 /* Foundation.framework */; };
+		4D900ABF19521D83001B2407 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D900AA119521D83001B2407 /* UIKit.framework */; };
+		4D900AC719521D83001B2407 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D900AC519521D83001B2407 /* InfoPlist.strings */; };
+		4D900AC919521D83001B2407 /* AwesomeGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D900AC819521D83001B2407 /* AwesomeGameTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D900AC019521D83001B2407 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D900A9219521D83001B2407 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D900A9919521D83001B2407;
+			remoteInfo = AwesomeGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D900A9A19521D83001B2407 /* AwesomeGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwesomeGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D900A9D19521D83001B2407 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4D900A9F19521D83001B2407 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4D900AA119521D83001B2407 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4D900AA519521D83001B2407 /* AwesomeGame-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AwesomeGame-Info.plist"; sourceTree = "<group>"; };
+		4D900AA719521D83001B2407 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D900AA919521D83001B2407 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D900AAB19521D83001B2407 /* AwesomeGame-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AwesomeGame-Prefix.pch"; sourceTree = "<group>"; };
+		4D900AAC19521D83001B2407 /* DBJAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBJAppDelegate.h; sourceTree = "<group>"; };
+		4D900AAD19521D83001B2407 /* DBJAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBJAppDelegate.m; sourceTree = "<group>"; };
+		4D900AB019521D83001B2407 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D900AB219521D83001B2407 /* DBJViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DBJViewController.h; sourceTree = "<group>"; };
+		4D900AB319521D83001B2407 /* DBJViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DBJViewController.m; sourceTree = "<group>"; };
+		4D900AB519521D83001B2407 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4D900ABB19521D83001B2407 /* AwesomeGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwesomeGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D900ABC19521D83001B2407 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4D900AC419521D83001B2407 /* AwesomeGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AwesomeGameTests-Info.plist"; sourceTree = "<group>"; };
+		4D900AC619521D83001B2407 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D900AC819521D83001B2407 /* AwesomeGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AwesomeGameTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D900A9719521D83001B2407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D900AA019521D83001B2407 /* CoreGraphics.framework in Frameworks */,
+				4D900AA219521D83001B2407 /* UIKit.framework in Frameworks */,
+				4D900A9E19521D83001B2407 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D900AB819521D83001B2407 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D900ABD19521D83001B2407 /* XCTest.framework in Frameworks */,
+				4D900ABF19521D83001B2407 /* UIKit.framework in Frameworks */,
+				4D900ABE19521D83001B2407 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D900A9119521D83001B2407 = {
+			isa = PBXGroup;
+			children = (
+				4D900AA319521D83001B2407 /* AwesomeGame */,
+				4D900AC219521D83001B2407 /* AwesomeGameTests */,
+				4D900A9C19521D83001B2407 /* Frameworks */,
+				4D900A9B19521D83001B2407 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D900A9B19521D83001B2407 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D900A9A19521D83001B2407 /* AwesomeGame.app */,
+				4D900ABB19521D83001B2407 /* AwesomeGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D900A9C19521D83001B2407 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D900A9D19521D83001B2407 /* Foundation.framework */,
+				4D900A9F19521D83001B2407 /* CoreGraphics.framework */,
+				4D900AA119521D83001B2407 /* UIKit.framework */,
+				4D900ABC19521D83001B2407 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D900AA319521D83001B2407 /* AwesomeGame */ = {
+			isa = PBXGroup;
+			children = (
+				4D900AAC19521D83001B2407 /* DBJAppDelegate.h */,
+				4D900AAD19521D83001B2407 /* DBJAppDelegate.m */,
+				4D900AAF19521D83001B2407 /* Main.storyboard */,
+				4D900AB219521D83001B2407 /* DBJViewController.h */,
+				4D900AB319521D83001B2407 /* DBJViewController.m */,
+				4D900AB519521D83001B2407 /* Images.xcassets */,
+				4D900AA419521D83001B2407 /* Supporting Files */,
+			);
+			path = AwesomeGame;
+			sourceTree = "<group>";
+		};
+		4D900AA419521D83001B2407 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D900AA519521D83001B2407 /* AwesomeGame-Info.plist */,
+				4D900AA619521D83001B2407 /* InfoPlist.strings */,
+				4D900AA919521D83001B2407 /* main.m */,
+				4D900AAB19521D83001B2407 /* AwesomeGame-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D900AC219521D83001B2407 /* AwesomeGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D900AC819521D83001B2407 /* AwesomeGameTests.m */,
+				4D900AC319521D83001B2407 /* Supporting Files */,
+			);
+			path = AwesomeGameTests;
+			sourceTree = "<group>";
+		};
+		4D900AC319521D83001B2407 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D900AC419521D83001B2407 /* AwesomeGameTests-Info.plist */,
+				4D900AC519521D83001B2407 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D900A9919521D83001B2407 /* AwesomeGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D900ACC19521D83001B2407 /* Build configuration list for PBXNativeTarget "AwesomeGame" */;
+			buildPhases = (
+				4D900A9619521D83001B2407 /* Sources */,
+				4D900A9719521D83001B2407 /* Frameworks */,
+				4D900A9819521D83001B2407 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AwesomeGame;
+			productName = AwesomeGame;
+			productReference = 4D900A9A19521D83001B2407 /* AwesomeGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D900ABA19521D83001B2407 /* AwesomeGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D900ACF19521D83001B2407 /* Build configuration list for PBXNativeTarget "AwesomeGameTests" */;
+			buildPhases = (
+				4D900AB719521D83001B2407 /* Sources */,
+				4D900AB819521D83001B2407 /* Frameworks */,
+				4D900AB919521D83001B2407 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D900AC119521D83001B2407 /* PBXTargetDependency */,
+			);
+			name = AwesomeGameTests;
+			productName = AwesomeGameTests;
+			productReference = 4D900ABB19521D83001B2407 /* AwesomeGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D900A9219521D83001B2407 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DBJ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = dbjAppIndustries;
+				TargetAttributes = {
+					4D900ABA19521D83001B2407 = {
+						TestTargetID = 4D900A9919521D83001B2407;
+					};
+				};
+			};
+			buildConfigurationList = 4D900A9519521D83001B2407 /* Build configuration list for PBXProject "AwesomeGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D900A9119521D83001B2407;
+			productRefGroup = 4D900A9B19521D83001B2407 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D900A9919521D83001B2407 /* AwesomeGame */,
+				4D900ABA19521D83001B2407 /* AwesomeGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D900A9819521D83001B2407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D900AB619521D83001B2407 /* Images.xcassets in Resources */,
+				4D900AA819521D83001B2407 /* InfoPlist.strings in Resources */,
+				4D900AB119521D83001B2407 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D900AB919521D83001B2407 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D900AC719521D83001B2407 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D900A9619521D83001B2407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D900AAA19521D83001B2407 /* main.m in Sources */,
+				4D900AB419521D83001B2407 /* DBJViewController.m in Sources */,
+				4D900AAE19521D83001B2407 /* DBJAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D900AB719521D83001B2407 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D900AC919521D83001B2407 /* AwesomeGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D900AC119521D83001B2407 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D900A9919521D83001B2407 /* AwesomeGame */;
+			targetProxy = 4D900AC019521D83001B2407 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D900AA619521D83001B2407 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D900AA719521D83001B2407 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4D900AAF19521D83001B2407 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D900AB019521D83001B2407 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D900AC519521D83001B2407 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D900AC619521D83001B2407 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D900ACA19521D83001B2407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4D900ACB19521D83001B2407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D900ACD19521D83001B2407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AwesomeGame/AwesomeGame-Prefix.pch";
+				INFOPLIST_FILE = "AwesomeGame/AwesomeGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4D900ACE19521D83001B2407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AwesomeGame/AwesomeGame-Prefix.pch";
+				INFOPLIST_FILE = "AwesomeGame/AwesomeGame-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4D900AD019521D83001B2407 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AwesomeGame.app/AwesomeGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AwesomeGame/AwesomeGame-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AwesomeGameTests/AwesomeGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4D900AD119521D83001B2407 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/AwesomeGame.app/AwesomeGame";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AwesomeGame/AwesomeGame-Prefix.pch";
+				INFOPLIST_FILE = "AwesomeGameTests/AwesomeGameTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D900A9519521D83001B2407 /* Build configuration list for PBXProject "AwesomeGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D900ACA19521D83001B2407 /* Debug */,
+				4D900ACB19521D83001B2407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D900ACC19521D83001B2407 /* Build configuration list for PBXNativeTarget "AwesomeGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D900ACD19521D83001B2407 /* Debug */,
+				4D900ACE19521D83001B2407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D900ACF19521D83001B2407 /* Build configuration list for PBXNativeTarget "AwesomeGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D900AD019521D83001B2407 /* Debug */,
+				4D900AD119521D83001B2407 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D900A9219521D83001B2407 /* Project object */;
+}
