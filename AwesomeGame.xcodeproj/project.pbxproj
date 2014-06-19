@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D349AB819533EA900203B35 /* DBJBoss.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D349AB719533EA900203B35 /* DBJBoss.m */; };
 		4D900A9E19521D83001B2407 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D900A9D19521D83001B2407 /* Foundation.framework */; };
 		4D900AA019521D83001B2407 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D900A9F19521D83001B2407 /* CoreGraphics.framework */; };
 		4D900AA219521D83001B2407 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D900AA119521D83001B2407 /* UIKit.framework */; };
@@ -21,6 +22,21 @@
 		4D900ABF19521D83001B2407 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D900AA119521D83001B2407 /* UIKit.framework */; };
 		4D900AC719521D83001B2407 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D900AC519521D83001B2407 /* InfoPlist.strings */; };
 		4D900AC919521D83001B2407 /* AwesomeGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D900AC819521D83001B2407 /* AwesomeGameTests.m */; };
+		4D900AD4195221BD001B2407 /* DBJTile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D900AD3195221BD001B2407 /* DBJTile.m */; };
+		4D900AD71952247C001B2407 /* DBJTileFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D900AD61952247C001B2407 /* DBJTileFactory.m */; };
+		4D900AE5195240B2001B2407 /* hero.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4D900ADD195240B2001B2407 /* hero.jpeg */; };
+		4D900AE6195240B2001B2407 /* boss.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4D900ADE195240B2001B2407 /* boss.jpeg */; };
+		4D900AE7195240B2001B2407 /* cave.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4D900ADF195240B2001B2407 /* cave.jpeg */; };
+		4D900AEC1952418F001B2407 /* rightArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D900AE81952418F001B2407 /* rightArrow.png */; };
+		4D900AED1952418F001B2407 /* downArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D900AE91952418F001B2407 /* downArrow.png */; };
+		4D900AEE1952418F001B2407 /* leftArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D900AEA1952418F001B2407 /* leftArrow.png */; };
+		4D900AEF1952418F001B2407 /* upArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 4D900AEB1952418F001B2407 /* upArrow.png */; };
+		4D900AF3195255FE001B2407 /* mystery.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4D900AF0195255FE001B2407 /* mystery.jpeg */; };
+		4D900AF4195255FE001B2407 /* monster.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4D900AF1195255FE001B2407 /* monster.jpeg */; };
+		4D900AF5195255FE001B2407 /* village.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4D900AF2195255FE001B2407 /* village.jpeg */; };
+		4D900AF8195281AF001B2407 /* DBJHero.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D900AF7195281AF001B2407 /* DBJHero.m */; };
+		4D900AFB1952823C001B2407 /* DBJWeapon.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D900AFA1952823C001B2407 /* DBJWeapon.m */; };
+		4D900AFE19528272001B2407 /* DBJArmor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D900AFD19528272001B2407 /* DBJArmor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +50,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D349AB619533EA900203B35 /* DBJBoss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBJBoss.h; sourceTree = "<group>"; };
+		4D349AB719533EA900203B35 /* DBJBoss.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBJBoss.m; sourceTree = "<group>"; };
 		4D900A9A19521D83001B2407 /* AwesomeGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AwesomeGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D900A9D19521D83001B2407 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4D900A9F19521D83001B2407 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +71,26 @@
 		4D900AC419521D83001B2407 /* AwesomeGameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AwesomeGameTests-Info.plist"; sourceTree = "<group>"; };
 		4D900AC619521D83001B2407 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4D900AC819521D83001B2407 /* AwesomeGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AwesomeGameTests.m; sourceTree = "<group>"; };
+		4D900AD2195221BD001B2407 /* DBJTile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBJTile.h; sourceTree = "<group>"; };
+		4D900AD3195221BD001B2407 /* DBJTile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBJTile.m; sourceTree = "<group>"; };
+		4D900AD51952247B001B2407 /* DBJTileFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBJTileFactory.h; sourceTree = "<group>"; };
+		4D900AD61952247C001B2407 /* DBJTileFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBJTileFactory.m; sourceTree = "<group>"; };
+		4D900ADD195240B2001B2407 /* hero.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hero.jpeg; sourceTree = "<group>"; };
+		4D900ADE195240B2001B2407 /* boss.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = boss.jpeg; sourceTree = "<group>"; };
+		4D900ADF195240B2001B2407 /* cave.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cave.jpeg; sourceTree = "<group>"; };
+		4D900AE81952418F001B2407 /* rightArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightArrow.png; sourceTree = "<group>"; };
+		4D900AE91952418F001B2407 /* downArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = downArrow.png; sourceTree = "<group>"; };
+		4D900AEA1952418F001B2407 /* leftArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leftArrow.png; sourceTree = "<group>"; };
+		4D900AEB1952418F001B2407 /* upArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = upArrow.png; sourceTree = "<group>"; };
+		4D900AF0195255FE001B2407 /* mystery.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mystery.jpeg; sourceTree = "<group>"; };
+		4D900AF1195255FE001B2407 /* monster.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = monster.jpeg; sourceTree = "<group>"; };
+		4D900AF2195255FE001B2407 /* village.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = village.jpeg; sourceTree = "<group>"; };
+		4D900AF6195281AF001B2407 /* DBJHero.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBJHero.h; sourceTree = "<group>"; };
+		4D900AF7195281AF001B2407 /* DBJHero.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBJHero.m; sourceTree = "<group>"; };
+		4D900AF91952823C001B2407 /* DBJWeapon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBJWeapon.h; sourceTree = "<group>"; };
+		4D900AFA1952823C001B2407 /* DBJWeapon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBJWeapon.m; sourceTree = "<group>"; };
+		4D900AFC19528272001B2407 /* DBJArmor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DBJArmor.h; sourceTree = "<group>"; };
+		4D900AFD19528272001B2407 /* DBJArmor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DBJArmor.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,12 +150,21 @@
 		4D900AA319521D83001B2407 /* AwesomeGame */ = {
 			isa = PBXGroup;
 			children = (
-				4D900AAC19521D83001B2407 /* DBJAppDelegate.h */,
-				4D900AAD19521D83001B2407 /* DBJAppDelegate.m */,
 				4D900AAF19521D83001B2407 /* Main.storyboard */,
+				4D900AF6195281AF001B2407 /* DBJHero.h */,
+				4D900AF7195281AF001B2407 /* DBJHero.m */,
+				4D900AF91952823C001B2407 /* DBJWeapon.h */,
+				4D900AFC19528272001B2407 /* DBJArmor.h */,
+				4D900AFD19528272001B2407 /* DBJArmor.m */,
+				4D900AFA1952823C001B2407 /* DBJWeapon.m */,
+				4D900AD3195221BD001B2407 /* DBJTile.m */,
+				4D900AD2195221BD001B2407 /* DBJTile.h */,
+				4D900AD51952247B001B2407 /* DBJTileFactory.h */,
+				4D900AD61952247C001B2407 /* DBJTileFactory.m */,
 				4D900AB219521D83001B2407 /* DBJViewController.h */,
 				4D900AB319521D83001B2407 /* DBJViewController.m */,
-				4D900AB519521D83001B2407 /* Images.xcassets */,
+				4D349AB619533EA900203B35 /* DBJBoss.h */,
+				4D349AB719533EA900203B35 /* DBJBoss.m */,
 				4D900AA419521D83001B2407 /* Supporting Files */,
 			);
 			path = AwesomeGame;
@@ -126,6 +173,19 @@
 		4D900AA419521D83001B2407 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4D900AAC19521D83001B2407 /* DBJAppDelegate.h */,
+				4D900AAD19521D83001B2407 /* DBJAppDelegate.m */,
+				4D900AB519521D83001B2407 /* Images.xcassets */,
+				4D900AF0195255FE001B2407 /* mystery.jpeg */,
+				4D900AF1195255FE001B2407 /* monster.jpeg */,
+				4D900AF2195255FE001B2407 /* village.jpeg */,
+				4D900AE81952418F001B2407 /* rightArrow.png */,
+				4D900AE91952418F001B2407 /* downArrow.png */,
+				4D900AEA1952418F001B2407 /* leftArrow.png */,
+				4D900AEB1952418F001B2407 /* upArrow.png */,
+				4D900ADD195240B2001B2407 /* hero.jpeg */,
+				4D900ADE195240B2001B2407 /* boss.jpeg */,
+				4D900ADF195240B2001B2407 /* cave.jpeg */,
 				4D900AA519521D83001B2407 /* AwesomeGame-Info.plist */,
 				4D900AA619521D83001B2407 /* InfoPlist.strings */,
 				4D900AA919521D83001B2407 /* main.m */,
@@ -229,9 +289,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D900AE7195240B2001B2407 /* cave.jpeg in Resources */,
+				4D900AE5195240B2001B2407 /* hero.jpeg in Resources */,
+				4D900AEC1952418F001B2407 /* rightArrow.png in Resources */,
+				4D900AED1952418F001B2407 /* downArrow.png in Resources */,
+				4D900AF4195255FE001B2407 /* monster.jpeg in Resources */,
+				4D900AF5195255FE001B2407 /* village.jpeg in Resources */,
+				4D900AE6195240B2001B2407 /* boss.jpeg in Resources */,
 				4D900AB619521D83001B2407 /* Images.xcassets in Resources */,
+				4D900AF3195255FE001B2407 /* mystery.jpeg in Resources */,
+				4D900AEF1952418F001B2407 /* upArrow.png in Resources */,
 				4D900AA819521D83001B2407 /* InfoPlist.strings in Resources */,
 				4D900AB119521D83001B2407 /* Main.storyboard in Resources */,
+				4D900AEE1952418F001B2407 /* leftArrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,8 +320,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D900AF8195281AF001B2407 /* DBJHero.m in Sources */,
+				4D900AD71952247C001B2407 /* DBJTileFactory.m in Sources */,
 				4D900AAA19521D83001B2407 /* main.m in Sources */,
+				4D349AB819533EA900203B35 /* DBJBoss.m in Sources */,
 				4D900AB419521D83001B2407 /* DBJViewController.m in Sources */,
+				4D900AD4195221BD001B2407 /* DBJTile.m in Sources */,
+				4D900AFB1952823C001B2407 /* DBJWeapon.m in Sources */,
+				4D900AFE19528272001B2407 /* DBJArmor.m in Sources */,
 				4D900AAE19521D83001B2407 /* DBJAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +533,7 @@
 				4D900ACE19521D83001B2407 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D900ACF19521D83001B2407 /* Build configuration list for PBXNativeTarget "AwesomeGameTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +542,7 @@
 				4D900AD119521D83001B2407 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
